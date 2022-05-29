@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EAEAEA;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 1100px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.flex__row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.select-list {
+    display: flex;
+    align-items: center;
+    margin-left: -500px;
+    cursor: pointer;
+}
+.select-list__title {
+    margin-left: 15px;
+    margin-right: 5px;
+    color: #101010;
+    font-size: 15px;
+    font-weight: 500;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.header-icons {
+    display: flex;
+    max-width: 70px;
+    width: 100%;
+    justify-content: space-between;
+}
+.cursor {
+    cursor: pointer;
+}
+.header {
+    margin-bottom: 22px;
+}
+.baner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #101010;
+    border-radius: 30px;
+    width: 100%;
+    padding-left: 183px;
+    padding-right: 183px;
+    cursor: pointer;
+}
+.baner-title {
+    background-color: transparent;
+    color: #fff;
+    margin-right: 40px;
+    text-align: center;
+}
+.baner-img {
+    background-color: #101010;
+    width: 321px;
+}
+.category {
+    color: #838383;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cargo-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+.product-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.card-item {
+    background-color: #fff;
+    padding: 25px 90px 25px 90px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    max-width: 320px;
+    width: 100%;
+}
+.prod-img {
+    background-color: transparent;
+}
+.prod-name {
+    color: #1C1C27;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 600;
+    background-color: transparent;
+}
+.like-icon {
+    background-color: transparent;
+    position: absolute;
+    top: 15px;
+    left: 22px;
+}
+.head-phones {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 15px 28px 32px 28px;
+    max-width: 320px;
+    width: 100%;
+    align-items: center
+}
+.product-card__footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 55px;
+}
+.head-phones__title {
+    margin: 0;
+}
+.background-color {
+    background-color: transparent
+}
+.actual-price {
+    margin: 0;
+    color: #FFA542;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+.old-price {
+    margin: 0;
+    color: #FFCE7F;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: line-through;
+}
+.product-rait {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-right: auto;
+}
+.rait-icon {
+    margin-right: 10px;
+}
+.rait-value {
+    font-size: 17px;
+    color: #838383;
+    font-weight: 600;
+    margin: 0;
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px 30px 0px 0px
+}
+.footer-navigation {
+    display: flex;
+    flex-direction: column;
+}
+.footer-link {
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0;
+    padding-bottom: 10px;
+    color: #000;
+}
+.footer-link:last-child {
+    padding: 0;
+}
+.lnguage-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.language-links {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #101010;
+}
+.active-language {
+    font-weight: 700;
+    color: #FFA542;
+}
+.language-icon {
+    margin-right: 15px;
+}
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 125px;
+    width: 100%;
+}

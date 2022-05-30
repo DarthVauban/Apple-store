@@ -1,5 +1,5 @@
 let select = function () {
-    let = selectHeader = document.querySelectorAll('.select__header');
+    let selectHeader = document.querySelectorAll('.select__header');
     let selectItem = document.querySelectorAll('.select__item');
 
     selectHeader.forEach(item => {
@@ -20,6 +20,22 @@ let select = function () {
         currentText.innerText = text;
         select.classList.remove('is-active');
     }
+
+    document.addEventListener('click', function(e){   
+        if (e.target != document.querySelector('.select__body')){
+        if (document.querySelector('.select').classList.contains('is-active')) {
+            document.querySelector('.select').classList.remove('is-active');
+        }
+      }
+      });
 };
 
 select ()
+
+// document.addEventListener('click', function(e){   
+//     if (e.target != document.querySelector('.select__body')){
+//     if (document.querySelector('.select').classList.contains('is-active')) {
+//         document.querySelector('.select').classList.remove('is-active');
+//     }
+//   }
+//   });

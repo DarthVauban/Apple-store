@@ -21,13 +21,13 @@ let select = function () {
         select.classList.remove('is-active');
     }
 
-    document.addEventListener('click', function(e){   
-        if (e.target != document.querySelector('.select__body')){
-        if (document.querySelector('.select').classList.contains('is-active')) {
-            document.querySelector('.select').classList.remove('is-active');
-        }
-      }
-      });
+    // document.addEventListener('click', function(e){   
+    //     if (e.target != document.querySelector('.select__body')){
+    //     if (document.querySelector('.select').classList.contains('is-active')) {
+    //         document.querySelector('.select').classList.remove('is-active');
+    //     }
+    //   }
+    //   });
 };
 
 select ()
